@@ -16,16 +16,16 @@ Vue.use(VueRouter)
 // 我们晚点再讨论嵌套路由。
 const routes = [
     {
-        path: '/musichome', component: () => import ("./components/musichome/musichome.vue")
+        path: '/musichome', component: () => import ("../musichome/musichome.vue")
     },
     {
-        path: '/tuijian', component: () => import ("./components/tuijian/tuijian.vue")
+        path: '/tuijian', component: () => import ("../tuijian/tuijian.vue")
     },
     {
-        path: '/dongtai', component: () => import ("./components/dongtai/dongtai.vue")
+        path: '/dongtai', component: () => import ("../dongtai/dongtai.vue")
     },
     {
-        path: '/my', component: () => import ("./components/my/my.vue")
+        path: '/my', component: () => import ("../my/my.vue")
     },
 ]
 
