@@ -1,0 +1,126 @@
+.home_swiper {
+  width: 100%;
+  border: 1px solid #F7F7F7;
+  box-sizing: border-box;
+  padding: 0.625rem 0;
+
+  .van-swipe-item {
+    text-align: center;
+
+    img {
+      border-radius: 0.625rem;
+      width: 90%;
+    }
+  }
+}
+
+.home_nav {
+  width: 100%;
+
+  ul {
+    width: 100%;
+    display: flex;
+
+    li {
+      width: 20%;
+      color: #646464;
+      height: 3.75rem;
+      padding: 0.3125rem 0;
+      a{
+        color: #646464;
+      }
+      span {
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        
+        i {
+          color: #23D199;
+          font-size: 1.875rem;
+        }
+      }
+    }
+  }
+}
+
+.home_xgsf {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  div {
+    width: 49%;
+    border-radius: 8px;
+    display: flex;
+    background: #23D199;
+    padding: 0.9375rem 0;
+
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 5px;
+      margin: 0 8px;
+    }
+
+    dl {
+      display: flex;
+      color: #fff;
+
+      dd {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 200;
+
+        p {
+          font-size: 0.625rem;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  div:nth-child(even){
+    background: #FCCD59;
+  }
+}
+
+.home_gfgd {
+  width: 90%;
+  margin: 0 auto;
+  
+  .top {
+    width: 100%;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+
+    .biaoti {
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+
+    .gengduo {
+      font-size: 0.9375rem;
+      color: #646464;
+    }
+  }
+
+  .gd_content {
+    width: 100%;
+    overflow-x hidden;
+    .van-swipe {
+      dl{
+        overflow hidden;
+        font-size 14px;
+        img {
+          width 90%;
+          border-radius 10px;
+        }
+
+      }
+      
+    }
+  }
+}

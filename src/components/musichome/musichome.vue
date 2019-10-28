@@ -1,87 +1,64 @@
 <template>
   <div>
-    <div class="swiper">
+    <!-- 轮播 -->
+    <div class="home_swiper">
       <van-swipe :autoplay="3000">
-        <van-swipe-item v-for="(image, index) in swiper" :key="index">
+        <van-swipe-item v-for="(image, index) of home_swiper" :key="index">
           <img :src="image.img_src" />
         </van-swipe-item>
       </van-swipe>
     </div>
-    <div class="nav">
-      <!-- <ul>
-        <li>
-          <span><van-icon name="user-o" /></span>
-          <span>歌手</span>
+    <!-- 导航 -->
+    <div class="home_nav">
+      <ul>
+        <li v-for="(item, index) of home_nav" :key="index">
+          <a :href="item.url">
+            <span>
+              <van-icon :name="item.h_nav_icon" />
+            </span>
+            <span>{{item.title}}</span>
+          </a>
         </li>
-        <li>
-          <span></span>
-          <span>排行</span>
-        </li>
-        <li>
-          <span></span>
-          <span>分类歌曲</span>
-        </li>
-        <li>
-          <span></span>
-          <span>电台</span>
-        </li>
-        <li>
-          <span></span>
-          <span>一起听</span>
-        </li>
-      </ul> -->
+      </ul>
+    </div>
+    <!-- 新歌首发 -->
+    <div class="home_xgsf">
+      <div v-for="(item, index) of home_xgsf" :key="index">
+        <dl>
+          <dt>
+            <img :src="item.img_src" alt />
+          </dt>
+          <dd>
+            <h5>{{item.title}}</h5>
+            <p>{{item.content}}</p>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <!-- 官方歌单-->
+    <div class="home_gfgd" v-for="(item,index) of home_content" :key="index">
+      <div class="top">
+        <div class="biaoti">{{item.top}}</div>
+        <div class="gengduo">更多&gt;</div>
+      </div>
+      <div class="gd_content">
+        <van-swipe :duration="0" :loop="false" :show-indicators="false" :width="115">
+          <van-swipe-item v-for="(ite,ind) of item.content" :key="ind">
+            <dl>
+              <dt>
+                <img :src="ite.img_src" alt srcset />
+              </dt>
+              <dd>{{ite.title}}</dd>
+            </dl>
+          </van-swipe-item>
+        </van-swipe>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      swiper: [
-        {
-          title: "",
-          img_src:
-            "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804515.jpg?max_age=2592000"
-        },
-        {
-          title: "",
-          img_src:
-            "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1806513.jpg?max_age=2592000"
-        },
-        {
-          title: "",
-          img_src:
-            "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1793866.jpg?max_age=2592000"
-        },
-        {
-          title: "",
-          img_src:
-            "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804217.jpg?max_age=2592000"
-        },
-        {
-          title: "",
-          img_src:
-            "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1805625.jpg?max_age=2592000"
-        }
-      ]
-    };
-  }
-};
-</script>
+<script src="./musichome.js"></script>
 
 <style lang="stylus" scoped>
-.swiper {
-  width: 100%;
-  padding: 0.625rem 0;
-
-  .van-swipe-item {
-    text-align: center;
-
-    img {
-      border-radius: 0.625rem;
-      width: 90%;
-    }
-  }
-}
+@import './musichome.stylus';
 </style>

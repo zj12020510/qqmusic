@@ -6,7 +6,7 @@
     </div>
     <footer>
       <div @click="musichome">
-        <span><van-icon name="audio" /></span>
+        <span><van-icon name="service-o" /></span>
         <span>音乐馆</span> 
       </div>
       <div @click="tuijian">
@@ -27,33 +27,6 @@
 
 <script>
 export default {
-  data(){
-    return{
-      app_nav:[
-        {
-          title:"音乐馆",
-          app_icon:"audio",
-          url:"musichome"
-        },
-        {
-          title:"推荐",
-          app_icon:"good-job-o",
-          url:"tuijian"
-        },
-        {
-          title:"动态",
-          app_icon:"browsing-history-o",
-          url:"dongtai"
-        },
-        {
-          title:"我的",
-          app_icon:"contact",
-          url:"my"
-
-        },
-      ]
-    }
-  },
   methods: {
     musichome() {
       this.$router.push("/musichome");
@@ -74,13 +47,10 @@ export default {
 <style lang="stylus" scoped>
 .box {
   width: 100%;
-  display grid ;
-  grid-auto-columns 100%;
-  grid-template-rows 3.125rem calc(100vh - 6.875rem) 3.75rem;
   header {
     width: 100%;
     height: 3.125rem;
-    background: #F7F7F7;
+    background: #eee;
     display flex;
     justify-content space-around;
     align-items center;
@@ -89,9 +59,6 @@ export default {
         height 1.875rem;
         border-radius .9375rem;
         border none;
-        outline none ;
-        text-indent .625rem
-        
     }
     span{
         font-size 30px;
@@ -99,23 +66,18 @@ export default {
     }
   }
     .content{
-      overflow scroll;
         width 100%;
-        background #F7F7F7;
+        background #eee;
     }
 
   footer {
     width: 100%;
     display: flex;
+    position: fixed;
     background: #fff;
     border-top: 1px solid #ccc;
-    box-sizing border-box;
-    overflow-x hidden;
-    // position: fixed;
-    // bottom: 0rem;
-    // left: 0rem;
-    color #646464;
-
+    bottom: 0rem;
+    left: 0rem;
 
     div {
       width: 25%;
