@@ -1,25 +1,13 @@
 <template>
   <div class="box">
-    <header> <span>音乐馆</span><input type="search" name="" id=""><span><van-icon name="music-o" /></span> </header>
+    <header> <span>{{app_top}}</span><input type="search" name="" id=""><span><van-icon name="music-o" /></span> </header>
     <div class="content">
       <router-view></router-view>
     </div>
     <footer>
-      <div @click="musichome">
-        <span><van-icon name="audio" /></span>
-        <span>音乐馆</span> 
-      </div>
-      <div @click="tuijian">
-        <span><van-icon name="good-job-o" /></span>
-        <span>推荐</span> 
-      </div>
-      <div @click="dongtai">
-        <span><van-icon name="browsing-history-o" /></span>
-        <span>动态</span> 
-      </div>
-      <div @click="my">
-        <span><van-icon name="contact" /></span>
-        <span>我的</span> 
+      <div v-for="(item, index) of app_nav" @click="gorouter(item.url, item.title)" :key="index">
+        <span><van-icon :name="item.app_icon" /></span>
+        <span>{{item.title}}</span> 
       </div>
     </footer>
   </div>
@@ -33,39 +21,31 @@ export default {
         {
           title:"音乐馆",
           app_icon:"audio",
-          url:"musichome"
+          url:"/musichome",
         },
         {
           title:"推荐",
           app_icon:"good-job-o",
-          url:"tuijian"
+          url:"/tuijian"
         },
         {
           title:"动态",
           app_icon:"browsing-history-o",
-          url:"dongtai"
+          url:"/dongtai"
         },
         {
           title:"我的",
           app_icon:"contact",
-          url:"my"
-
+          url:"/my"
         },
-      ]
+      ],
+      app_top:"音乐馆"
     }
   },
   methods: {
-    musichome() {
-      this.$router.push("/musichome");
-    },
-    tuijian() {
-      this.$router.push("/tuijian");
-    },
-    dongtai() {
-      this.$router.push("/dongtai");
-    },
-    my() {
-      this.$router.push("/my");
+    gorouter(url, title) {
+      this.$router.push({path:url});
+      this.app_top = title;
     }
   }
 };

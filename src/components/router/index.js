@@ -28,7 +28,7 @@ const routes = [
         path: '/my', component: () => import ("../my/my.vue")
     },
     {
-        path: '/*', component: () => import ("../musichome/musichome.vue")
+        path: '/*', redirect: '/musichome'
     }
 ]
 
