@@ -1,99 +1,46 @@
 <template>
   <div class="box">
-    <header> <span>音乐馆</span><input type="search" name="" id=""><span><van-icon name="music-o" /></span> </header>
+    <header>
+      <span>{{app_top}}</span>
+      <input type="search" name id />
+      <span>
+        <van-icon name="music-o" />
+      </span>
+    </header>
     <div class="content">
       <router-view></router-view>
     </div>
+    <div class="music" :class="{bofangqi: show}" @click="bfq_top">
+      <ul class="bfq_weiba">
+        <li>
+          <img src="http://y.gtimg.cn/music/photo_new/T002R300x300M000003oD0L12HrK8c.jpg?max_age=2592000" alt />
+          <span>野狼disco</span>
+        </li>
+        <li>
+          <van-icon name="play-circle-o" />
+          <van-icon name="wap-nav" />
+        </li>
+      </ul>
+      <Bofangqi v-show="show" />
+    </div>
     <footer>
-      <div @click="musichome">
-        <span><van-icon name="service-o" /></span>
-        <span>音乐馆</span> 
-      </div>
-      <div @click="tuijian">
-        <span><van-icon name="good-job-o" /></span>
-        <span>推荐</span> 
-      </div>
-      <div @click="dongtai">
-        <span><van-icon name="browsing-history-o" /></span>
-        <span>动态</span> 
-      </div>
-      <div @click="my">
-        <span><van-icon name="contact" /></span>
-        <span>我的</span> 
+      <div
+        v-for="(item, index) of app_nav"
+        @click="gorouter(item.url, index)"
+        :key="index"
+        :class="{bg: item.bg}"
+      >
+        <span>
+          <van-icon :name="item.app_icon" />
+        </span>
+        <span>{{item.title}}</span>
       </div>
     </footer>
   </div>
 </template>
 
-<script>
-export default {
-  methods: {
-    musichome() {
-      this.$router.push("/musichome");
-    },
-    tuijian() {
-      this.$router.push("/tuijian");
-    },
-    dongtai() {
-      this.$router.push("/dongtai");
-    },
-    my() {
-      this.$router.push("/my");
-    }
-  }
-};
-</script>
+<script src="./app.js"></script>
 
 <style lang="stylus" scoped>
-.box {
-  width: 100%;
-  header {
-    width: 100%;
-    height: 3.125rem;
-    background: #eee;
-    display flex;
-    justify-content space-around;
-    align-items center;
-    input{
-        width 50%;
-        height 1.875rem;
-        border-radius .9375rem;
-        border none;
-    }
-    span{
-        font-size 30px;
-        font-weight bold;
-    }
-  }
-    .content{
-        width 100%;
-        background #eee;
-    }
-
-  footer {
-    width: 100%;
-    display: flex;
-    position: fixed;
-    background: #fff;
-    border-top: 1px solid #ccc;
-    bottom: 0rem;
-    left: 0rem;
-
-    div {
-      width: 25%;
-      text-align center
-      height 3.75rem;
-      span{
-          display block;
-          width 100%;
-          font-size .625rem;
-          i{
-              font-size 1.875rem;
-              padding .3125rem 0 0 0;
-              box-sizing border-box;
-          }
-      }
-    }
-  }
-}
+@import "./app.stylus";
 </style>

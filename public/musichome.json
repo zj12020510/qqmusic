@@ -1,0 +1,383 @@
+[
+    {
+        "home_swiper": [
+            {
+                "title": "",
+                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804515.jpg?max_age=2592000"
+            },
+            {
+                "title": "",
+                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1806513.jpg?max_age=2592000"
+            },
+            {
+                "title": "",
+                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1793866.jpg?max_age=2592000"
+            },
+            {
+                "title": "",
+                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804217.jpg?max_age=2592000"
+            },
+            {
+                "title": "",
+                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1805625.jpg?max_age=2592000"
+            }
+        ]
+    },
+    {
+        "home_nav":[
+            {
+                "h_nav_icon":"user-o",
+                "title":"歌手",
+                "url":"./geshou.html"
+
+            },{
+                "h_nav_icon":"bar-chart-o",
+                "title":"排行",
+                "url":"./paihang.html"
+            },{
+                "h_nav_icon":"apps-o",
+                "title":"分类歌曲",
+                "url":"./fenlei.html"
+            },{
+                "h_nav_icon":"bulb-o",
+                "title":"电台",
+                "url":"./diantai.html"
+            },{
+                "h_nav_icon":"service-o",
+                "title":"一起听",
+                "url":"./yiqiting.html"
+            }
+        ]
+    },
+    {
+        "home_xgsf":[
+            {
+                "img_src":"http://y.gtimg.cn/music/photo_new/T002R90x90M000003pLJ9f49uTTn.jpg?max_age=2592000",
+                "title":"新歌新碟",
+                "content":"机器人男友，爱..."
+            },{
+                "img_src":"http://y.gtimg.cn/music/photo_new/T002R90x90M000003Sj9Jf3pmogX.jpg?max_age=2592000",
+                "title":"数字专辑·票务",
+                "content":"摩登兄弟"
+            }
+        ]
+    },
+    {
+        "home_content": [
+            {
+                "top": "官方歌单",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6q4X4NiaWS01Fvtn063nqHY2Q/300?n=1&n=1",
+                        "title": "欧美| 流行轻有氧"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qK7j5tHmW9Oqq1bJiax97DjA/300?n=1&n=1",
+                        "title": "欧美| 惬意流行旋律"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/7vlTTvwBiaibKJpyXffTHicMiakYicRM2Uo8DUbr7JxZnnr6IIZiaIphxXXQ/300?n=1",
+                        "title": "KSHMR私藏"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpia2DC03De3HS6nrcrKPde4Q/300?n=1&n=1",
+                        "title": "欧美摇滚||混搭时代-90年代"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPogVefz4nfzdblS6pgSW7mEg/300?n=1&n=1",
+                        "title": "欧美| Party进行时"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
+                        "title": "日系Vlog背景音乐"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
+                        "title": "高燃BUFF"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    }
+                ]
+            },
+            {
+                "top": "达人歌单",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/8eiaDBJ27yYicpMibYZmmEdNEPOTSqwhACUdHM3vVus8fMw33fzp1Do2A/300?n=1",
+                        "title": "华语摇滚：我只要最直接的疯狂"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/qHVa7C6VF9SibnYtgb2SBrU5MAgfPxIg8iayqXj029tE6xDe6HFUic4cw/300?n=1",
+                        "title": "来听听，日式的孤独是什么滋味呢"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/NawV4ZPN5YIfVgAjVD75JhtFPpEwwXQrHiaChJ9RDwYiaGzIib7zVpHTQ/300?n=1",
+                        "title": "治愈女声｜总有温暖，不期而遇"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7Mv4Z4XYwozKNB4ve4ib5eExjzIlicX54iaj3ErpuN5BiaUnzfAp1UXXew/300?n=1",
+                        "title": "甜蜜日系：微风轻起，好喜欢你"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/nvRBiaJHaPBvG00iczEYfbuxIGWNzyE2m0HRphTJlR9pibddsEoOklAdg/300?n=1",
+                        "title": "Netflix | 2019十大热门剧集原声"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/Q2BbehalbX9rf2ZwicYKia2MFXPRgWHfSvAVtTOSsYla5GHj4JIbn3uQ/300?n=1",
+                        "title": "仓木麻衣：我的歌声烙在你成长的印记"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/llTQ9l2AeicK2OLIORnsUdvDPU5iaaJ55whF0SicOxARblDrBzIkZalMw/300?n=1",
+                        "title": "秋乏 • 晨起醒脑必备"
+                    }
+                ]
+            },
+            {
+                "top": "分类专区",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/g2UJica8V9N4HGIV5JicE6UXzwnTS0mPVtULFTpnGDowqXqhaBU0WTCw/300?n=1",
+                        "title": "俄式低音：热血Hard Bass"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/ZfWLEKXs0aUDM9Rl8E4k7AoAIpHNfGVq1jtU7hVHw84wPZ2zj5wiaUA/300?n=1",
+                        "title": "你再打扰我工作，我就和你一起玩"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/QPUdibADoJ6SbdNQVXRYDgaOG4LxpCq4Ca4b9sdDWCSovjcM8OMEL1Q/300?n=1",
+                        "title": "国风心事录：半笺娇恨寄幽怀"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/8eiaDBJ27yYicpMibYZmmEdNEPOTSqwhACUdHM3vVus8fMw33fzp1Do2A/300?n=1",
+                        "title": "华语摇滚：我只要最直接的疯狂"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/qHVa7C6VF9SibnYtgb2SBrU5MAgfPxIg8iayqXj029tE6xDe6HFUic4cw/300?n=1",
+                        "title": "来听听，日式的孤独是什么滋味呢"
+                    }
+                ]
+            },
+            {
+                "top": "最新专辑",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpia2DC03De3HS6nrcrKPde4Q/300?n=1&n=1",
+                        "title": "欧美摇滚||混搭时代-90年代"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPogVefz4nfzdblS6pgSW7mEg/300?n=1&n=1",
+                        "title": "欧美| Party进行时"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
+                        "title": "日系Vlog背景音乐"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
+                        "title": "高燃BUFF"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            },
+            {
+                "top": "一起听",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
+                        "title": "日系Vlog背景音乐"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
+                        "title": "高燃BUFF"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            },
+            {
+                "top": "VIP专区",
+                "content": [
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    }
+                ]
+            },
+            {
+                "top": "精彩视频",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qK7j5tHmW9Oqq1bJiax97DjA/300?n=1&n=1",
+                        "title": "欧美| 惬意流行旋律"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            },
+            {
+                "top": "独家内容",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
+                        "title": "日系Vlog背景音乐"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
+                        "title": "高燃BUFF"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            },
+            {
+                "top": "有声节目",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/nvRBiaJHaPBvG00iczEYfbuxIGWNzyE2m0HRphTJlR9pibddsEoOklAdg/300?n=1",
+                        "title": "Netflix | 2019十大热门剧集原声"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/Q2BbehalbX9rf2ZwicYKia2MFXPRgWHfSvAVtTOSsYla5GHj4JIbn3uQ/300?n=1",
+                        "title": "仓木麻衣：我的歌声烙在你成长的印记"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/llTQ9l2AeicK2OLIORnsUdvDPU5iaaJ55whF0SicOxARblDrBzIkZalMw/300?n=1",
+                        "title": "秋乏 • 晨起醒脑必备"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            },
+            {
+                "top": "乐人",
+                "content": [
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
+                        "title": "华语流行| 暖心告白"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
+                        "title": "华语| 民谣在路上"
+                    },
+                    {
+                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
+                        "title": "欧美| 快乐补充剂"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
+                        "title": "古典新鲜味"
+                    },
+                    {
+                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
+                        "title": "日语速爆新歌"
+                    }
+                ]
+            }
+        ]
+    }
+]
