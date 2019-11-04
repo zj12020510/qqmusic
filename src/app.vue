@@ -11,14 +11,17 @@
       <router-view></router-view>
     </div>
     <!-- 全局播放条 -->
-    <div class="music" :class="{bofangqi: show}" @click="bfq_top">
+    <div class="music" :class="{bofangqi: show}" v-if="musiclist.length" @click="bfq_top">
       <ul class="bfq_weiba">
         <li>
-          <img src="/img/野狼Disco_宝石.jpg" alt />
-          <span>野狼disco</span>
+          <img :src="musiclist[musiclist_index].img_src" alt />
+          <span>{{musiclist[musiclist_index].title}}</span>
         </li>
         <li>
-          <van-icon :name="bfq_isplay ? 'pause-circle-o' : 'play-circle-o'"   @click.stop="bforzt(bfq_isplay ? 0 : 1)"/> 
+          <van-icon
+            :name="bfq_isplay ? 'pause-circle-o' : 'play-circle-o'"
+            @click.stop="bforzt(bfq_isplay ? 0 : 1)"
+          />
           <van-icon name="wap-nav" />
         </li>
       </ul>
@@ -43,5 +46,5 @@
 <script src="./app.js"></script>
 
 <style lang="stylus" scoped>
-@import "./app.stylus";
+@import './app.stylus';
 </style>
