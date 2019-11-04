@@ -31,12 +31,11 @@ const H_Routes = [
     },
     {
         path: '/my', component: () => import ("../my/my.vue")
-    },
-    {
-        path: '/*', redirect: '/musichome'
     }
 ]
-const routes = H_Routes.concat(tj_router, my_router, muh_router, dt_router, bf_router)
+const routes = H_Routes.concat(tj_router, my_router, muh_router, dt_router, bf_router, [{
+        path: '/*', redirect: '/musichome'
+}])
 
 // 3. 创建 router 实例，然后传 `routes` 配置
 // 你还可以传别的配置参数, 不过先这么简单着吧。
