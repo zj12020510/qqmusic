@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "642411",
+      "name": "信封",
+      "font_class": "xinfeng-copy",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1580025",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1770008",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "1841904",
+      "name": "已购专辑",
+      "font_class": "yigouzhuanji",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "7830520",
+      "name": "下载",
+      "font_class": "xiazai1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "8066072",
+      "name": "绿钻vip",
+      "font_class": "lvzuanvip",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10250580",
+      "name": "btn down arrow",
+      "font_class": "btndownarrow",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10341676",
+      "name": "添加",
+      "font_class": "jia1",
+      "unicode": "e528",
+      "unicode_decimal": 58664
+    },
+    {
+      "icon_id": "10345420",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "10926464",
+      "name": "会员",
+      "font_class": "ziyuan",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    }
+  ]
+}
