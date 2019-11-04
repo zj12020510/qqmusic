@@ -10,14 +10,18 @@ Vue.use(Vant);
 Vue.use(Vuex);
 const store = new Vuex.Store({
     state: {
-        home: []
+        home: [],
+        bfq_isplay:false
     },
     
     mutations: {
 
         HOME(state, payload) {
             // console.log(payload)
-            return state.home = payload
+            state.home = payload
+        },
+        BFQ_ISPLAY(state, payload){
+            state.bfq_isplay = payload
         }
     },
     actions: {

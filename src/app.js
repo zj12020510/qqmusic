@@ -30,12 +30,19 @@ export default {
           }
         ],
         app_top: "音乐馆",
-        show: false
+        show: false,
+        
       };
+    },
+    computed:{
+      bfq_isplay(){
+        return this.$store.state.bfq_isplay
+      }
     },
     components:{
       Bofangqi
     } ,
+    
     methods: {
       gorouter(url, index) {
         this.app_nav.map((item, inde) => (this.app_nav[inde].bg = false));
@@ -45,7 +52,21 @@ export default {
       },
       bfq_top() {
         this.show = true;
-      }
+      },
+      bfq_down(){
+        this.show = false
+      },
+      bforzt(val) {
+        if(val){
+          this.$store.commit("BFQ_ISPLAY",!this.bfq_isplay)
+          $('.yinpinyuan')[0].play()
+        }else{
+          this.$store.commit("BFQ_ISPLAY",!this.bfq_isplay)
+          $('.yinpinyuan')[0].pause()
+
+        }
+        
+      },
     },
     mounted() {
       let arr = this.app_nav;

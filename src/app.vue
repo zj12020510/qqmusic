@@ -10,18 +10,19 @@
     <div class="content">
       <router-view></router-view>
     </div>
+    <!-- 全局播放条 -->
     <div class="music" :class="{bofangqi: show}" @click="bfq_top">
       <ul class="bfq_weiba">
         <li>
-          <img src="http://y.gtimg.cn/music/photo_new/T002R300x300M000003oD0L12HrK8c.jpg?max_age=2592000" alt />
+          <img src="/img/野狼Disco_宝石.jpg" alt />
           <span>野狼disco</span>
         </li>
         <li>
-          <van-icon name="play-circle-o" />
+          <van-icon :name="bfq_isplay ? 'pause-circle-o' : 'play-circle-o'"   @click.stop="bforzt(bfq_isplay ? 0 : 1)"/> 
           <van-icon name="wap-nav" />
         </li>
       </ul>
-      <Bofangqi v-show="show" />
+      <Bofangqi v-show="show" :bfq_down="bfq_down" />
     </div>
     <footer>
       <div
