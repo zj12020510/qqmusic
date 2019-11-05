@@ -187,6 +187,7 @@
       </div>
     </div>
     <!-- <Zujian></Zujian> -->
+      <router-view></router-view>
   </div>
 </template>
 
@@ -329,10 +330,10 @@ export default {
   // },
   methods: {
     huadong(){
-       this.$router.push("/zujian")
+       this.$router.push('/zujian')
     },
     weini(){
-      this.$router.push("/shipin")
+      this.$router.push("/gedan")
     }
   },
   components: {

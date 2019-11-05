@@ -1,0 +1,194 @@
+.bfq {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  .bfq_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.875rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+
+    span.icon-more-vert {
+      font-size: 1.875rem;
+      align-self: center;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+  }
+
+  .bfq_content {
+    flex: 1;
+    overflow: hidden;
+
+    .zuozhe {
+      width: 100%;
+      height: 2.1875rem;
+      display: flex;
+      line-height: 2.1875rem;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.875rem;
+
+      span {
+        display: inline-block;
+        width: 2.8125rem;
+        height: 1.5625rem;
+        background: #999;
+        margin: 0 0 0 0.625rem;
+        text-align: center;
+        line-height: 1.5625rem;
+        font-size: 0.75rem;
+        border-radius: 0.78125rem;
+      }
+    }
+
+    .tiaoyin {
+      display: flex;
+      justify-content: center;
+      height: 2.1875rem;
+      align-items: center;
+
+      span {
+        width: 3.75rem;
+        height: 1.375rem;
+        font-size: 0.875rem;
+        text-align: center;
+        line-height: 1.375rem;
+        display: block;
+        border: 0.0625rem solid #fff;
+        border-radius: 0.3125rem;
+        margin-right: 0.625rem;
+      }
+
+      .van-popup--bottom.van-popup--round {
+        border-radius: 0;
+
+        button {
+          text-align: left;
+        }
+      }
+    }
+
+    .bfq_img {
+      width: 100%;
+      padding: .625rem 0;
+      overflow: hidden;
+
+      
+      img {
+        width: 100%;
+        display: block;
+        border-radius: 50%;
+        
+      }
+    }
+
+    .bfq_geci {
+      width: 100%;
+      height: 1.875rem;
+      text-align: center;
+    }
+  }
+
+  .bfq_gongneng {
+    width: 100%;
+    height: 8.75rem;
+
+    .bfq_audio {
+      display: flex;
+      justify-content: space-between;
+      height: 1.875rem;
+      align-items: center;
+
+      span {
+        width: 3.125rem;
+        display: block;
+        text-align: end;
+
+      }
+
+      span:nth-child(1) {
+        text-align: start;
+      }
+
+      .bfq_bofangtiao {
+        flex: 1;
+        height: .1875rem;
+        background: #fff;
+        border-radius: .09375rem;
+
+        .bfq_jindu {
+          width: 30%;
+          height: 100%;
+          background: rgb(111, 185, 36);
+
+        }
+      }
+
+      .bfq_bnt {
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+.bfq_img {
+  animation: rotate 10s linear 0s infinite;
+  animation-play-state: paused;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+
+
+// 伪类图标设置
+.bfq_bnt .iconfont {
+  font-size: 2.25rem;
+  display: block;
+
+}
+
+.bfq_bnt .icon-bofang {
+  font-size: 3.125rem;
+}
+
+.bfq_bnt ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.75rem;
+}
+
+.bfq_bnt ul li:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.125rem;
+}
+
+.bfq_bnt .icon-fenxiang1,
+.bfq_bnt .icon-xin1 {
+  font-size: 1.5625rem;
+}
+
+.bfq_bnt .icon-icon--,
+.bfq_bnt .icon-BAI-pinglun {
+  font-size: 1.875rem;
+}

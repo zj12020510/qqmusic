@@ -1,6 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import TuijianRouter from '../tuijian/router'
+
+
+import tj_router from '../tuijian/tj_router'
+import my_router from '../my/my_router'
+import muh_router from '../musichome/muh_router'
+import dt_router from '../dongtai/dt_router'
+import bf_router from '../bofangqi/bf_router'
+
 // https://www.cnblogs.com/lxk0301/p/11671256.html
 // 解决莫名其妙的报错 重写了一个push方法
 const routerPush = VueRouter.prototype.push
@@ -14,7 +21,9 @@ Vue.use(VueRouter)
 // 通过 Vue.extend() 创建的组件构造器，
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
-const fenluyou = [
+
+const H_Routes = [
+
     {
         path: '/musichome', component: () => import ("../musichome/musichome.vue")
     },
@@ -27,15 +36,16 @@ const fenluyou = [
     {
         path: '/my', component: () => import ("../my/my.vue")
     }
-]
     
-    const routes = fenluyou.concat(TuijianRouter)
-
+]
+const routes = H_Routes.concat(tj_router, my_router, muh_router, dt_router, bf_router,[{
+    path: '/*', redirect: '/musichome'
+}])
 
 // 3. 创建 router 实例，然后传 `routes` 配置
 // 你还可以传别的配置参数, 不过先这么简单着吧。
 const router = new VueRouter({
-    routes  // (缩写) 相当于 routes: routes
+    routes, // (缩写) 相当于 routes: routes
 })
 
 export default router
