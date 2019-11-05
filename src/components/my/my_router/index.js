@@ -3,7 +3,7 @@ export default[
         path: '/like', component: () => import ("../like/like.vue"),
     },
     {
-        path: '/bendi', component: () => import ("../bendi/bendi.vue")
+        path: '/my_bendi', component: () => import ("../bendi/bendi.vue")
     },
     {
         path: '/yigou', component: () => import ("../yigou/yigou.vue")

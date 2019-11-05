@@ -60,7 +60,7 @@ export default {
       }
   },
 };
-</script>
+</script scoped>
 
 <style>
 .zzc3 .van-icon-video-o{

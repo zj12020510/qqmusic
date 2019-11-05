@@ -117,7 +117,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .zzc4 .van-icon-vip-card-o{
   position: absolute;
   left: 7rem;

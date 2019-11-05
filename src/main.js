@@ -32,7 +32,8 @@ const store = new Vuex.Store({
             state.musiclist = payload
         },
         MUSICLIST_INDEX(state, payload) {
-            state.musiclist_index = payload
+            state.musiclist_index = payload.index;
+            state.bfq_isplay = payload.bfq_isplay
         }
     },
     actions: {

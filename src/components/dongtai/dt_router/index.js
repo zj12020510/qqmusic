@@ -1,6 +1,15 @@
-/**动态页面子路由 */
-export default [
+var arr=[
     {
-        path: '/my', component: () => import ("../../musichome/geshou/index.vue")
-    }
+        path: '/bendi', component: () => import ("../components/bendi.vue"),
+    },
+    {
+        path: '/miaoshu', component: () => import ("../components/sanjiluyou/miaoshu.vue")
+    },
+    {
+        path: '/people', component: () => import ("../components/people.vue")
+    },
+    {
+        path: '/singer', component: () => import ("../components/sanjiluyou/singer.vue")
+    },
 ]
+export default arr

@@ -4,10 +4,10 @@
     <van-icon name="arrow-left"  @click="my" />   <van-image class="enheng1"
         width="7rem"
         height="7rem"
-        src="//y.gtimg.cn/music/photo_new/T002R300x300M000001DViXn26rVwz.jpg?max_age=2592000"
+        src="./img/T002R300x300M000001DViXn26rVwz.jpg"
     />
     <font>我最爱听</font>
-    <van-image round class="round" width="2rem" height="2rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+    <van-image round class="round" width="2rem" height="2rem" src="./img/cat.jpeg" />
       <span>DEVIL</span>
       <a>编辑简介 ></a>
     </div>
@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #box{
   width: 100%;
   overflow-x: hidden

@@ -111,7 +111,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #box{
   width: 100%;
   overflow-x: hidden;
