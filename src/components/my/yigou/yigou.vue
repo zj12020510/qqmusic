@@ -12,9 +12,9 @@
     </div>
     <div class="changxiao">
       <ul>
-          <li>
+          <li @click="changxiao">
             <van-icon name="bar-chart-o" />
-            <span @click="changxiao">畅销榜</span>
+            <span>畅销榜</span>
           </li>
           <li>
             <van-icon name="exchange" />
@@ -294,7 +294,6 @@
           </ul>
         </div>
     </div>
-  <div class="jiao"></div>
   </div>
 </template>
 
@@ -638,14 +637,6 @@ export default {
 </script>
 
 <style>
-.jiao{
-  height: 3rem;
-}
-html,body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
 .van-icon-arrow-left {
   font-size: 2rem;
   vertical-align: middle;

@@ -236,7 +236,7 @@ export default {
 .zzc4 {
   margin-top: 1rem;
   width: 100;
-  height: 50rem;
+  height: 48rem;
 }
 .zzc4 a {
   margin-left: 1rem;

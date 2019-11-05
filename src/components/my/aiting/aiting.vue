@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style>
+#box{
+  width: 100%;
+  overflow-x: hidden
+}
 .zzc3 .van-icon-video-o{
    position: absolute;
   left: 18rem;

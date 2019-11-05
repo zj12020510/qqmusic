@@ -112,8 +112,12 @@ export default {
 </script>
 
 <style>
+#box{
+  width: 100%;
+  overflow-x: hidden;
+}
 .zzc3 .van-icon-video-o{
-   position: absolute;
+  position: absolute;
   left: 18rem;
   font-size: 24px;
   top: 13px
@@ -128,7 +132,6 @@ export default {
   width:100rem;
   height: 33rem;
   margin-top: 1rem;
-  margin-bottom: 3rem
 }
 .zzc3 div{
   position: relative;

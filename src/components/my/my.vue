@@ -202,10 +202,6 @@ export default {
 </script>
 
 <style>
-#box{
-  width: 100%;
-  overflow: hidden;
-}
 i {
   color: #888;
 }
@@ -323,7 +319,7 @@ section {
 }
 .tuijian {
   width: 100%;
-  height: 32rem;
+  height: 29rem;
 }
 .tuijian a {
   margin-left: 1rem;

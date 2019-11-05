@@ -14,4 +14,7 @@ export default[
     {
         path: '/aiting', component: () => import ("../aiting/aiting.vue")
     },
+    {
+        path: '/changxiao', component: () => import ('../yigou/changxiao/changxiao.vue')
+    }
 ]
