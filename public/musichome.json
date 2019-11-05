@@ -3,62 +3,89 @@
         "home_swiper": [
             {
                 "title": "",
-                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804515.jpg?max_age=2592000"
+                "img_src": "/img/musichom_lun01.jpg",
+                "id": "home_swiper_01",
+                "mp3_src": ""
             },
             {
                 "title": "",
-                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1806513.jpg?max_age=2592000"
+                "img_src": "/img/1806513.jpg",
+                "id": "home_swiper_01806513",
+                "mp3_src": ""
             },
             {
                 "title": "",
-                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1793866.jpg?max_age=2592000"
+                "img_src": "/img/musichom_lun02.jpg",
+                "id": "home_swiper_02",
+                "mp3_src": ""
             },
             {
                 "title": "",
-                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1804217.jpg?max_age=2592000"
+                "img_src": "/img/musichom_lun03.jpg",
+                "id": "home_swiper_03",
+                "mp3_src": ""
             },
             {
                 "title": "",
-                "img_src": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/1805625.jpg?max_age=2592000"
+                "img_src": "/img/1819685.jpg",
+                "id": "home_swiper_04",
+                "mp3_src": ""
+            },
+            {
+                "title": "",
+                "img_src": "/img/1818989.jpg",
+                "id": "home_swiper_05",
+                "mp3_src": ""
             }
         ]
     },
     {
-        "home_nav":[
+        "home_nav": [
             {
-                "h_nav_icon":"user-o",
-                "title":"歌手",
-                "url":"./geshou.html"
-
-            },{
-                "h_nav_icon":"bar-chart-o",
-                "title":"排行",
-                "url":"./paihang.html"
-            },{
-                "h_nav_icon":"apps-o",
-                "title":"分类歌曲",
-                "url":"./fenlei.html"
-            },{
-                "h_nav_icon":"bulb-o",
-                "title":"电台",
-                "url":"./diantai.html"
-            },{
-                "h_nav_icon":"service-o",
-                "title":"一起听",
-                "url":"./yiqiting.html"
+                "h_nav_icon": "user-o",
+                "title": "歌手",
+                "url": "geshou",
+                "path": "geshou"
+            },
+            {
+                "h_nav_icon": "bar-chart-o",
+                "title": "排行",
+                "url": "paihang",
+                "path": "paihang"
+            },
+            {
+                "h_nav_icon": "apps-o",
+                "title": "分类歌曲",
+                "url": "fenlei",
+                "path": "fenlei"
+            },
+            {
+                "h_nav_icon": "bulb-o",
+                "title": "电台",
+                "url": "diantai",
+                "path": "diantai"
+            },
+            {
+                "h_nav_icon": "service-o",
+                "title": "一起听",
+                "url": "yiqiting",
+                "path": "yiqiting"
             }
         ]
     },
     {
-        "home_xgsf":[
+        "home_xgsf": [
             {
-                "img_src":"http://y.gtimg.cn/music/photo_new/T002R90x90M000003pLJ9f49uTTn.jpg?max_age=2592000",
-                "title":"新歌新碟",
-                "content":"机器人男友，爱..."
-            },{
-                "img_src":"http://y.gtimg.cn/music/photo_new/T002R90x90M000003Sj9Jf3pmogX.jpg?max_age=2592000",
-                "title":"数字专辑·票务",
-                "content":"摩登兄弟"
+                "img_src": "/img/T002R90x90M000003pLJ9f49uTTn.jpg",
+                "title": "新歌新碟",
+                "content": "机器人男友，爱...",
+                "mp3_src": ""
+            },
+            {
+                "img_src": "/img/T002R90x90M000003Sj9Jf3pmogX.jpg",
+                "title": "数字专辑·票务",
+                "content": "摩登兄弟",
+                "mp3_src": ""
             }
         ]
     },
@@ -68,36 +95,52 @@
                 "top": "官方歌单",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6q4X4NiaWS01Fvtn063nqHY2Q/300?n=1&n=1",
-                        "title": "欧美| 流行轻有氧"
+                        "img_src": "/img/600.jpg",
+                        "title": "Sign Here丨引领韩国HIP-POP",
+                        "id": "music_home_600",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qK7j5tHmW9Oqq1bJiax97DjA/300?n=1&n=1",
-                        "title": "欧美| 惬意流行旋律"
+                        "img_src": "/img/301.jpg",
+                        "title": "欧美| 惬意流行旋律",
+                        "id": "music_home_301",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://p.qpic.cn/music_cover/7vlTTvwBiaibKJpyXffTHicMiakYicRM2Uo8DUbr7JxZnnr6IIZiaIphxXXQ/300?n=1",
-                        "title": "KSHMR私藏"
+                        "img_src": "/img/302.jpg",
+                        "title": "KSHMR私藏",
+                        "id": "music_home_302",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpia2DC03De3HS6nrcrKPde4Q/300?n=1&n=1",
-                        "title": "欧美摇滚||混搭时代-90年代"
+                        "img_src": "/img/303.jpg",
+                        "title": "欧美摇滚||混搭时代-90年代",
+                        "id": "music_home_303",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPogVefz4nfzdblS6pgSW7mEg/300?n=1&n=1",
-                        "title": "欧美| Party进行时"
+                        "img_src": "/img/300.jpg",
+                        "title": "欧美| Party进行时",
+                        "id": "music_home_300",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
-                        "title": "日系Vlog背景音乐"
+                        "img_src": "/img/304.jpg",
+                        "title": "日系Vlog背景音乐",
+                        "id": "music_home_304",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
-                        "title": "高燃BUFF"
+                        "img_src": "306.jpg",
+                        "title": "高燃BUFF",
+                        "id": "music_home_306",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
+                        "img_src": "/img/304.jpg",
+                        "title": "华语流行| 暖心告白",
+                        "id": "music_home_304",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -105,32 +148,34 @@
                 "top": "达人歌单",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/8eiaDBJ27yYicpMibYZmmEdNEPOTSqwhACUdHM3vVus8fMw33fzp1Do2A/300?n=1",
-                        "title": "华语摇滚：我只要最直接的疯狂"
+                        "img_src": "/img/308.jpg",
+                        "title": "华语摇滚：我只要最直接的疯狂",
+                        "id": "music_home_308",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/qHVa7C6VF9SibnYtgb2SBrU5MAgfPxIg8iayqXj029tE6xDe6HFUic4cw/300?n=1",
-                        "title": "来听听，日式的孤独是什么滋味呢"
+                        "img_src": "/img/en_暗示分离_4.jpg",
+                        "title": "暗示分离",
+                        "id": "music_home_309",
+                        "mp3_src": "/Music/en - 暗示分离.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/NawV4ZPN5YIfVgAjVD75JhtFPpEwwXQrHiaChJ9RDwYiaGzIib7zVpHTQ/300?n=1",
-                        "title": "治愈女声｜总有温暖，不期而遇"
+                        "img_src": "/img/G.E.M. 邓紫棋_Walk on Water_4.jpg",
+                        "title": "G.E.M. 邓紫棋_Walk on Water",
+                        "id": "music_home_311",
+                        "mp3_src": "/Music/G.E.M. 邓紫棋 - Walk on Water.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7Mv4Z4XYwozKNB4ve4ib5eExjzIlicX54iaj3ErpuN5BiaUnzfAp1UXXew/300?n=1",
-                        "title": "甜蜜日系：微风轻起，好喜欢你"
+                        "img_src": "/img/G.E.M. 邓紫棋_光年之外_4.jpg",
+                        "title": "G.E.M. 邓紫棋_光年之外",
+                        "id": "music_home_310",
+                        "mp3_src": "/Music/G.E.M. 邓紫棋 - 光年之外.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/nvRBiaJHaPBvG00iczEYfbuxIGWNzyE2m0HRphTJlR9pibddsEoOklAdg/300?n=1",
-                        "title": "Netflix | 2019十大热门剧集原声"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/Q2BbehalbX9rf2ZwicYKia2MFXPRgWHfSvAVtTOSsYla5GHj4JIbn3uQ/300?n=1",
-                        "title": "仓木麻衣：我的歌声烙在你成长的印记"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/llTQ9l2AeicK2OLIORnsUdvDPU5iaaJ55whF0SicOxARblDrBzIkZalMw/300?n=1",
-                        "title": "秋乏 • 晨起醒脑必备"
+                        "img_src": "/img/G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)_4.jpg",
+                        "title": "G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)",
+                        "id": "music_home_311",
+                        "mp3_src": "/Music/G.E.M. 邓紫棋 - 画 (Live Piano Session Ⅱ).mp3"
                     }
                 ]
             },
@@ -138,24 +183,34 @@
                 "top": "分类专区",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/g2UJica8V9N4HGIV5JicE6UXzwnTS0mPVtULFTpnGDowqXqhaBU0WTCw/300?n=1",
-                        "title": "俄式低音：热血Hard Bass"
+                        "img_src": "/img/G.E.M. 邓紫棋_新的心跳_4.jpg",
+                        "title": "G.E.M. 邓紫棋_新的心跳",
+                        "id": "music_home_312",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/ZfWLEKXs0aUDM9Rl8E4k7AoAIpHNfGVq1jtU7hVHw84wPZ2zj5wiaUA/300?n=1",
-                        "title": "你再打扰我工作，我就和你一起玩"
+                        "img_src": "/img/Uu_那女孩对我说_4.jpg",
+                        "title": "Uu_那女孩对我说",
+                        "id": "music_home_313",
+                        "mp3_src": "/Music/Uu - 那女孩对我说 (完整版).mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/QPUdibADoJ6SbdNQVXRYDgaOG4LxpCq4Ca4b9sdDWCSovjcM8OMEL1Q/300?n=1",
-                        "title": "国风心事录：半笺娇恨寄幽怀"
+                        "img_src": "/img/蔡健雅_若你碰到他_4.jpg",
+                        "title": "蔡健雅_若你碰到他",
+                        "id": "music_home_314",
+                        "mp3_src": "/Music/蔡健雅 - 红色高跟鞋.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/8eiaDBJ27yYicpMibYZmmEdNEPOTSqwhACUdHM3vVus8fMw33fzp1Do2A/300?n=1",
-                        "title": "华语摇滚：我只要最直接的疯狂"
+                        "img_src": "/img/G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)_4.jpg",
+                        "title": "G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)",
+                        "id": "music_home_315",
+                        "mp3_src": "/Music/G.E.M. 邓紫棋 - 画 (Live Piano Session Ⅱ).mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/qHVa7C6VF9SibnYtgb2SBrU5MAgfPxIg8iayqXj029tE6xDe6HFUic4cw/300?n=1",
-                        "title": "来听听，日式的孤独是什么滋味呢"
+                        "img_src": "/img/李荣浩_耳朵_4.jpg",
+                        "title": "李荣浩_耳朵",
+                        "id": "music_home_316",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -163,40 +218,28 @@
                 "top": "最新专辑",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpia2DC03De3HS6nrcrKPde4Q/300?n=1&n=1",
-                        "title": "欧美摇滚||混搭时代-90年代"
+                        "img_src": "/img/汪苏泷_不良少年_4.jpg",
+                        "title": "汪苏泷_不良少年",
+                        "id": "music_home_317",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPogVefz4nfzdblS6pgSW7mEg/300?n=1&n=1",
-                        "title": "欧美| Party进行时"
+                        "img_src": "/img/汪苏泷_不良少年_4.jpg",
+                        "title": "汪苏泷_不良少年",
+                        "id": "music_home_317",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
-                        "title": "日系Vlog背景音乐"
+                        "img_src": "/img/汪苏泷_不良少年_4.jpg",
+                        "title": "汪苏泷_不良少年",
+                        "id": "music_home_317",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
-                        "title": "高燃BUFF"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_不良少年_4.jpg",
+                        "title": "汪苏泷_不良少年",
+                        "id": "music_home_317",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -204,32 +247,28 @@
                 "top": "一起听",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
-                        "title": "日系Vlog背景音乐"
+                        "img_src": "/img/汪苏泷_耿_4.jpg",
+                        "title": "汪苏泷_耿",
+                        "id": "music_home_318",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
-                        "title": "高燃BUFF"
+                        "img_src": "/img/汪苏泷_耿_4.jpg",
+                        "title": "不分手的恋爱",
+                        "id": "music_home_318",
+                        "mp3_src": "/Music/汪苏泷 - 不分手的恋爱.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
+                        "img_src": "/img/汪苏泷_耿_4.jpg",
+                        "title": "汪苏泷_耿",
+                        "id": "music_home_318",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_耿_4.jpg",
+                        "title": "汪苏泷_耿",
+                        "id": "music_home_318",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -237,24 +276,34 @@
                 "top": "VIP专区",
                 "content": [
                     {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
+                        "img_src": "/img/汪苏泷_好安静_4.jpg",
+                        "title": "汪苏泷_好安静",
+                        "id": "music_home_319",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_好安静_4.jpg",
+                        "title": "汪苏泷_好安静",
+                        "id": "music_home_319",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
+                        "img_src": "/img/汪苏泷_好安静_4.jpg",
+                        "title": "汪苏泷_好安静",
+                        "id": "music_home_319",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
+                        "img_src": "/img/汪苏泷_好安静_4.jpg",
+                        "title": "汪苏泷_好安静",
+                        "id": "music_home_319",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
+                        "img_src": "/img/汪苏泷_好安静_4.jpg",
+                        "title": "汪苏泷_好安静",
+                        "id": "music_home_319",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -262,28 +311,28 @@
                 "top": "精彩视频",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qK7j5tHmW9Oqq1bJiax97DjA/300?n=1&n=1",
-                        "title": "欧美| 惬意流行旋律"
+                        "img_src": "/img/汪苏泷_花千骨 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_花千骨 电视剧原声带",
+                        "id": "music_home_320",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
+                        "img_src": "/img/周杰伦_说好不哭（with 五月天阿信）_4.jpg",
+                        "title": "周杰伦_说好不哭（with 五月天阿信）",
+                        "id": "music_home_329",
+                        "mp3_src": "/Music/周杰伦 - 说好不哭（with 五月天阿信）.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
+                        "img_src": "/img/汪苏泷_花千骨 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_花千骨 电视剧原声带",
+                        "id": "music_home_320",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_花千骨 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_花千骨 电视剧原声带",
+                        "id": "music_home_320",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -291,32 +340,28 @@
                 "top": "独家内容",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
+                        "img_src": "/img/汪苏泷_跨界歌王第四季 第3期_4.jpg",
+                        "title": "汪苏泷_跨界歌王第四季 第3期",
+                        "id": "music_home_321",
+                        "mp3_src": "/Music/汪苏泷 - 不分手的恋爱.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
+                        "img_src": "/img/音阙诗听 _ 赵方婧_芒种_4.jpg",
+                        "title": "音阙诗听 _ 赵方婧_芒种",
+                        "id": "music_home_327",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJfZrk8BAWrrpClAGDP44XiadnTicSIM5HWWw/300?n=1&n=1",
-                        "title": "日系Vlog背景音乐"
+                        "img_src": "/img/张泽熙_那个女孩_4.jpg",
+                        "title": "张泽熙_那个女孩",
+                        "id": "music_home_328",
+                        "mp3_src": "/Music/音阙诗听 _ 赵方婧 - 芒种.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/ib2uYYJVhia5TeO7z67ehqohbt5LI8BgYmbYz6YJV96b9v0Mx2NwOh5A/300?n=1&n=1",
-                        "title": "高燃BUFF"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/音阙诗听 _ 赵方婧_芒种_4.jpg",
+                        "title": "音阙诗听 _ 赵方婧_芒种",
+                        "id": "music_home_327",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -324,32 +369,28 @@
                 "top": "有声节目",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/nvRBiaJHaPBvG00iczEYfbuxIGWNzyE2m0HRphTJlR9pibddsEoOklAdg/300?n=1",
-                        "title": "Netflix | 2019十大热门剧集原声"
+                        "img_src": "/img/汪苏泷_微微一笑很倾城 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_微微一笑很倾城 电视剧原声带",
+                        "id": "music_home_322",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/Q2BbehalbX9rf2ZwicYKia2MFXPRgWHfSvAVtTOSsYla5GHj4JIbn3uQ/300?n=1",
-                        "title": "仓木麻衣：我的歌声烙在你成长的印记"
+                        "img_src": "/img/野狼Disco_宝石.jpg",
+                        "title": "野狼Disco_宝石",
+                        "id": "music_home_326",
+                        "mp3_src": "/Music/宝石Gem_陈伟霆_野狼Disco.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/llTQ9l2AeicK2OLIORnsUdvDPU5iaaJ55whF0SicOxARblDrBzIkZalMw/300?n=1",
-                        "title": "秋乏 • 晨起醒脑必备"
+                        "img_src": "/img/汪苏泷_微微一笑很倾城 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_微微一笑很倾城 电视剧原声带",
+                        "id": "music_home_322",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
-                    },
-                    {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_微微一笑很倾城 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_微微一笑很倾城 电视剧原声带",
+                        "id": "music_home_322",
+                        "mp3_src": ""
                     }
                 ]
             },
@@ -357,24 +398,28 @@
                 "top": "乐人",
                 "content": [
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPovXCLnW2LO8HmCR9cKia32TA/300?n=1&n=1",
-                        "title": "华语流行| 暖心告白"
+                        "img_src": "/img/汪苏泷_夏至未至 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_夏至未至 电视剧原声带",
+                        "id": "music_home_323",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qYvnMskl4iaXpDcrFUlibqMbw/300?n=1&n=1",
-                        "title": "华语| 民谣在路上"
+                        "img_src": "/img/王力宏 _ 谭维维_A.I. 爱_4.jpg",
+                        "title": "王力宏 _ 谭维维_A.I. 爱",
+                        "id": "music_home_324",
+                        "mp3_src": "/Music/王力宏 _ 谭维维 - 缘分一道桥.mp3"
                     },
                     {
-                        "img_src": "http://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6qkg2hXPMuZStliayHU8oDOKQ/300?n=1&n=1",
-                        "title": "欧美| 快乐补充剂"
+                        "img_src": "/img/许嵩_寻雾启示_4.jpg",
+                        "title": "许嵩_寻雾启示",
+                        "id": "music_home_325",
+                        "mp3_src": ""
                     },
                     {
-                        "img_src": "http://p.qpic.cn/music_cover/xiabfMZAmQ0PYUzgCvOicArIZ5vSbVyssuXgNyJxktNWX5MpB9QUFSHQ/300?n=1",
-                        "title": "古典新鲜味"
-                    },
-                    {
-                        "img_src": "http://p.qpic.cn/music_cover/4pmnRu5sL5QbtO8OS8NKJRumXDbzD1WzrjlBAPGBvbjfENQU6y6Nng/300?n=1",
-                        "title": "日语速爆新歌"
+                        "img_src": "/img/汪苏泷_夏至未至 电视剧原声带_4.jpg",
+                        "title": "汪苏泷_夏至未至 电视剧原声带",
+                        "id": "music_home_323",
+                        "mp3_src": ""
                     }
                 ]
             }

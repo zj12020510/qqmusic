@@ -1,0 +1,95 @@
+{
+    "musiclist": [
+        {
+            "img_src": "/img/en_暗示分离_4.jpg",
+            "title": "暗示分离",
+            "id": "music_home_309",
+            "mp3_src": "/Music/en - 暗示分离.mp3",
+            "geshou":"en"
+        },
+        {
+            "img_src": "/img/G.E.M. 邓紫棋_Walk on Water_4.jpg",
+            "title": "G.E.M. 邓紫棋_Walk on Water",
+            "id": "music_home_312",
+            "mp3_src": "/Music/G.E.M. 邓紫棋 - Walk on Water.mp3",
+            "geshou":"G.E.M. 邓紫棋"
+        },
+        {
+            "img_src": "/img/G.E.M. 邓紫棋_光年之外_4.jpg",
+            "title": "G.E.M. 邓紫棋_光年之外",
+            "id": "music_home_310",
+            "mp3_src": "/Music/G.E.M. 邓紫棋 - 光年之外.mp3",
+            "geshou":"G.E.M. 邓紫棋"
+        },
+        {
+            "img_src": "/img/G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)_4.jpg",
+            "title": "G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)",
+            "id": "music_home_311",
+            "mp3_src": "/Music/G.E.M. 邓紫棋 - 画 (Live Piano Session Ⅱ).mp3",
+            "geshou":"G.E.M. 邓紫棋"
+        },
+        {
+            "img_src": "/img/Uu_那女孩对我说_4.jpg",
+            "title": "Uu_那女孩对我说",
+            "id": "music_home_313",
+            "mp3_src": "/Music/Uu - 那女孩对我说 (完整版).mp3",
+            "geshou":"Uu"
+        },
+        {
+            "img_src": "/img/蔡健雅_若你碰到他_4.jpg",
+            "title": "蔡健雅_若你碰到他",
+            "id": "music_home_314",
+            "mp3_src": "/Music/蔡健雅 - 红色高跟鞋.mp3",
+            "geshou":"蔡健雅"
+        },
+        {
+            "img_src": "/img/G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)_4.jpg",
+            "title": "G.E.M. 邓紫棋_画(Live Piano Session Ⅱ)",
+            "id": "music_home_315",
+            "mp3_src": "/Music/G.E.M. 邓紫棋 - 画 (Live Piano Session Ⅱ).mp3",
+            "geshou":"G.E.M. 邓紫棋"
+        },
+        {
+            "img_src": "/img/汪苏泷_耿_4.jpg",
+            "title": "不分手的恋爱",
+            "id": "music_home_318",
+            "mp3_src": "/Music/汪苏泷 - 不分手的恋爱.mp3",
+            "geshou":"汪苏泷"
+        },
+        {
+            "img_src": "/img/周杰伦_说好不哭（with 五月天阿信）_4.jpg",
+            "title": "周杰伦_说好不哭（with 五月天阿信）",
+            "id": "music_home_329",
+            "mp3_src": "/Music/周杰伦 - 说好不哭（with 五月天阿信）.mp3",
+            "geshou":"周杰伦"
+        },
+        {
+            "img_src": "/img/汪苏泷_跨界歌王第四季 第3期_4.jpg",
+            "title": "汪苏泷_跨界歌王第四季 第3期",
+            "id": "music_home_321",
+            "mp3_src": "/Music/汪苏泷 - 不分手的恋爱.mp3",
+            "geshou":"汪苏泷"
+        },
+        {
+            "img_src": "/img/张泽熙_那个女孩_4.jpg",
+            "title": "音阙诗听 _ 赵方婧 - 芒种",
+            "id": "music_home_328",
+            "mp3_src": "/Music/音阙诗听 _ 赵方婧 - 芒种.mp3",
+            "geshou":"赵方婧"
+        },
+        {
+            "img_src": "/img/野狼Disco_宝石.jpg",
+            "title": "野狼Disco_宝石",
+            "id": "music_home_326",
+            "mp3_src": "/Music/宝石Gem_陈伟霆_野狼Disco.mp3",
+            "geshou":"宝石Gem_陈伟霆"
+        },
+        {
+            "img_src": "/img/王力宏 _ 谭维维_A.I. 爱_4.jpg",
+            "title": "王力宏 _ 谭维维_A.I. 爱",
+            "id": "music_home_324",
+            "mp3_src": "/Music/王力宏 _ 谭维维 - 缘分一道桥.mp3",
+            "geshou":"王力宏 _ 谭维维"
+        }
+    ]
+}
