@@ -14,6 +14,12 @@
     height: 2.5rem;
     line-height: 2.5rem;
 
+    p{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     span.icon-more-vert {
       font-size: 1.875rem;
       align-self: center;
@@ -178,6 +184,7 @@
 
       .bfq_bnt {
         width: 100%;
+        
       }
     }
 
@@ -235,4 +242,19 @@
 .bfq_bnt .icon-icon--,
 .bfq_bnt .icon-BAI-pinglun {
   font-size: 1.875rem;
+}
+.shoucang{
+  color:red;
+}
+.bfq_xiazai{
+  color: #fff;
+}
+.bfq_bflist{
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
 }
