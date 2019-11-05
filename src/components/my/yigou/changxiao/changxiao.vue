@@ -297,7 +297,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .changxiao4 ul{
   display: flex;
   width: 100%;

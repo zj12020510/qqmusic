@@ -186,7 +186,7 @@ export default {
       this.$router.push('/like')
     },
      bendi() {
-      this.$router.push('/bendi')
+      this.$router.push('/my_bendi')
     },
      yigou() {
       this.$router.push('/yigou')
@@ -201,7 +201,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 i {
   color: #888;
 }

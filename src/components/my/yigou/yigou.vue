@@ -636,7 +636,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .van-icon-arrow-left {
   font-size: 2rem;
   vertical-align: middle;

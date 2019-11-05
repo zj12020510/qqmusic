@@ -1,11 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import tj_router from '../tuijian/tj_router'
-import my_router from '../my/my_router'
-import muh_router from '../musichome/muh_router'
-import dt_router from '../dongtai/dt_router'
-import bf_router from '../bofangqi/bf_router'
-
 
 import tj_router from '../tuijian/tj_router'
 import my_router from '../my/my_router'

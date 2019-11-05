@@ -2,7 +2,7 @@
 <div class="fx">
   <div class="faxian">
     <div class="top_fx">
-      <span class="iconfont icon-fanhuizuojiantou" @click="goback"></span>
+      <span class="iconfont icon-fanhui" @click="goback"></span>
       <span class="iconfont icon-fenxiang"  @click="showPopup"></span>
     </div>
     <van-popup v-model="show"  position="bottom" :style="{ height: '30%' }">
@@ -32,7 +32,7 @@
     </div>
     <button @click="all">
       全部
-      <span class="iconfont icon-up_x"></span>
+      <span class="iconfont icon-xiangxiajiantou"></span>
     </button>
     <!-- 图文 -->
     <div class="main_bendi" v-for="(item,index) in main_bendi" :key="index"  @click="miaoshu">

@@ -72,7 +72,11 @@ export default {
         index = 0
       }
       // this.musiclist_index = index
-      this.$store.commit("MUSICLIST_INDEX", index)
+      
+      this.$store.commit("MUSICLIST_INDEX", {
+        index, 
+        bfq_isplay:true
+      })
     },
     bforzt(val) {
       // 点击播放或暂停按钮时
